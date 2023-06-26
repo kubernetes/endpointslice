@@ -8,10 +8,10 @@ require (
 	github.com/davecgh/go-spew v1.1.1
 	github.com/google/go-cmp v0.5.9
 	github.com/stretchr/testify v1.8.2
-	k8s.io/api v0.0.0-20230718014949-277ce0d086e7
-	k8s.io/apimachinery v0.0.0-20230718014249-03c97687112f
-	k8s.io/client-go v0.0.0-20230718015924-efe741a289f1
-	k8s.io/component-base v0.0.0-20230718021152-590f17cba088
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.100.1
 	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2
 )
@@ -42,12 +42,12 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/client_golang v1.16.0 // indirect
-	github.com/prometheus/client_model v0.4.0 // indirect
-	github.com/prometheus/common v0.44.0 // indirect
+	github.com/prometheus/client_model v0.3.0 // indirect
+	github.com/prometheus/common v0.42.0 // indirect
 	github.com/prometheus/procfs v0.10.1 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	golang.org/x/net v0.12.0 // indirect
-	golang.org/x/oauth2 v0.8.0 // indirect
+	golang.org/x/oauth2 v0.6.0 // indirect
 	golang.org/x/sys v0.10.0 // indirect
 	golang.org/x/term v0.10.0 // indirect
 	golang.org/x/text v0.11.0 // indirect
@@ -57,15 +57,16 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/kube-openapi v0.0.0-20230601164746-7562a1006961 // indirect
+	k8s.io/kube-openapi v0.0.0-20230717233707-2695361300d9 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230718014949-277ce0d086e7
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230718014249-03c97687112f
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230718015924-efe741a289f1
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230718021152-590f17cba088
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/endpointslice => ../endpointslice
 )
