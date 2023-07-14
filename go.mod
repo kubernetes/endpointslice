@@ -8,10 +8,10 @@ require (
 	github.com/davecgh/go-spew v1.1.1
 	github.com/google/go-cmp v0.5.9
 	github.com/stretchr/testify v1.8.2
-	k8s.io/api v0.0.0
-	k8s.io/apimachinery v0.0.0
-	k8s.io/client-go v0.0.0
-	k8s.io/component-base v0.0.0
+	k8s.io/api v0.0.0-20230714010757-8167ea0e18a0
+	k8s.io/apimachinery v0.0.0-20230712210707-c9b3b3a37189
+	k8s.io/client-go v0.0.0-20230714011210-0c7c900fd55e
+	k8s.io/component-base v0.0.0-20230713173548-ea35e2fd8622
 	k8s.io/klog/v2 v2.100.1
 	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2
 )
@@ -64,9 +64,8 @@ require (
 )
 
 replace (
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/client-go => ../client-go
-	k8s.io/component-base => ../component-base
-	k8s.io/endpointslice => ../endpointslice
+	k8s.io/api => k8s.io/api v0.0.0-20230714010757-8167ea0e18a0
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230712210707-c9b3b3a37189
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230714011210-0c7c900fd55e
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230713173548-ea35e2fd8622
 )
