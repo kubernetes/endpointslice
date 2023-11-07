@@ -2,16 +2,16 @@
 
 module k8s.io/endpointslice
 
-go 1.21
+go 1.21.3
 
 require (
 	github.com/davecgh/go-spew v1.1.1
 	github.com/google/go-cmp v0.6.0
 	github.com/stretchr/testify v1.8.4
-	k8s.io/api v0.0.0-20231214011710-3da949756c6e
-	k8s.io/apimachinery v0.0.0-20231214011457-aa9a6c8873ce
-	k8s.io/client-go v0.0.0-20231214012015-feecac4b447f
-	k8s.io/component-base v0.0.0-20231214012652-f2e48902f05e
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.110.1
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
 )
@@ -57,15 +57,16 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/kube-openapi v0.0.0-20231113174909-778a5567bc1e // indirect
+	k8s.io/kube-openapi v0.0.0-20231010175941-2dd684a91f00 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20231214011710-3da949756c6e
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231214011457-aa9a6c8873ce
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20231214012015-feecac4b447f
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20231214012652-f2e48902f05e
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/endpointslice => ../endpointslice
 )
