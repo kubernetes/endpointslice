@@ -8,10 +8,10 @@ require (
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
 	github.com/google/go-cmp v0.6.0
 	github.com/stretchr/testify v1.9.0
-	k8s.io/api v0.0.0
-	k8s.io/apimachinery v0.0.0
-	k8s.io/client-go v0.0.0
-	k8s.io/component-base v0.0.0
+	k8s.io/api v0.0.0-20240626062052-149781fc54f5
+	k8s.io/apimachinery v0.0.0-20240626061444-123bf3a82130
+	k8s.io/client-go v0.0.0-20240626062854-6090471cca1b
+	k8s.io/component-base v0.0.0-20240626064639-1f2e30104e8a
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
 )
@@ -61,12 +61,4 @@ require (
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
-)
-
-replace (
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/client-go => ../client-go
-	k8s.io/component-base => ../component-base
-	k8s.io/endpointslice => ../endpointslice
 )
