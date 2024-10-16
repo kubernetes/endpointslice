@@ -13,7 +13,7 @@ require (
 	k8s.io/api v0.0.0-20241011135352-a432ebea6002
 	k8s.io/apimachinery v0.0.0-20241015204703-8a237eeb80a5
 	k8s.io/client-go v0.0.0-20241016060006-235936510e4e
-	k8s.io/component-base v0.0.0-20241016061006-25e024afbb68
+	k8s.io/component-base v0.0.0-20241016100409-21112d3b7e43
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8
 )
@@ -48,6 +48,8 @@ require (
 	github.com/prometheus/procfs v0.15.1 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
+	go.opentelemetry.io/otel v1.28.0 // indirect
+	go.opentelemetry.io/otel/trace v1.28.0 // indirect
 	golang.org/x/net v0.30.0 // indirect
 	golang.org/x/oauth2 v0.23.0 // indirect
 	golang.org/x/sys v0.26.0 // indirect
