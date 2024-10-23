@@ -10,10 +10,10 @@ require (
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
 	github.com/google/go-cmp v0.6.0
 	github.com/stretchr/testify v1.9.0
-	k8s.io/api v0.0.0-20241018042523-2be23f6c5a71
+	k8s.io/api v0.0.0-20241023015215-eca7a287483b
 	k8s.io/apimachinery v0.0.0-20241018042225-cfee47580787
-	k8s.io/client-go v0.0.0-20241018042940-23900f492969
-	k8s.io/component-base v0.0.0-20241018044032-28853230c294
+	k8s.io/client-go v0.0.0-20241023015627-f05f3ca8bc82
+	k8s.io/component-base v0.0.0-20241023020816-054c677b7c4c
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8
 )
