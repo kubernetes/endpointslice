@@ -7,12 +7,11 @@ go 1.23.0
 godebug default=go1.23
 
 require (
-	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
 	github.com/google/go-cmp v0.6.0
 	github.com/stretchr/testify v1.9.0
 	k8s.io/api v0.0.0-20241105230147-1ddf895d7e74
-	k8s.io/apimachinery v0.0.0-20241105225905-b5e810677b4f
-	k8s.io/client-go v0.0.0-20241105230542-c1010ffd7de3
+	k8s.io/apimachinery v0.0.0-20241106065903-a4471387da34
+	k8s.io/client-go v0.0.0-20241106030549-9d76eb1606c5
 	k8s.io/component-base v0.0.0-20241105231555-33a822ed3833
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
@@ -22,6 +21,7 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/blang/semver/v4 v4.0.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
+	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/emicklei/go-restful/v3 v3.11.0 // indirect
 	github.com/fxamacker/cbor/v2 v2.7.0 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
