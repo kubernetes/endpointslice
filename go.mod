@@ -11,9 +11,9 @@ godebug winsymlink=0
 require (
 	github.com/google/go-cmp v0.6.0
 	github.com/stretchr/testify v1.9.0
-	k8s.io/api v0.0.0-20250106201850-018f9a59fc40
+	k8s.io/api v0.0.0-20250107083829-9e7d345b161c
 	k8s.io/apimachinery v0.0.0-20250106201545-3e8e52d6a125
-	k8s.io/client-go v0.0.0-20250106202309-ca1e525bb47b
+	k8s.io/client-go v0.0.0-20250108162250-26c6fd655e73
 	k8s.io/component-base v0.0.0-20250106203308-7356cc73422d
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
