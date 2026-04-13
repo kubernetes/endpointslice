@@ -9,10 +9,10 @@ godebug default=go1.25
 require (
 	github.com/google/go-cmp v0.7.0
 	github.com/stretchr/testify v1.11.1
-	k8s.io/api v0.0.0-20251204222945-bbcbaa8f8665
-	k8s.io/apimachinery v0.0.0-20260409103420-45398efd5d59
-	k8s.io/client-go v0.0.0-20260304191620-f80003c24087
-	k8s.io/component-base v0.0.0-20260414160532-ea613da60f3d
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20251002143259-bc988d571ff4
 )
@@ -44,8 +44,8 @@ require (
 	github.com/prometheus/procfs v0.16.1 // indirect
 	github.com/spf13/pflag v1.0.9 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
-	go.opentelemetry.io/otel v1.41.0 // indirect
-	go.opentelemetry.io/otel/trace v1.41.0 // indirect
+	go.opentelemetry.io/otel v1.36.0 // indirect
+	go.opentelemetry.io/otel/trace v1.36.0 // indirect
 	go.yaml.in/yaml/v2 v2.4.3 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
 	golang.org/x/net v0.47.0 // indirect
@@ -63,4 +63,11 @@ require (
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.0 // indirect
 	sigs.k8s.io/yaml v1.6.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
 )
