@@ -10,9 +10,9 @@ require (
 	github.com/google/go-cmp v0.7.0
 	github.com/stretchr/testify v1.12.1
 	k8s.io/api v0.0.0-20260829005437-99eb51d61cdd
-	k8s.io/apimachinery v0.0.0-20260829005050-50d9b4a672b4
+	k8s.io/apimachinery v0.0.0-20260830211405-7dc327f6cd52
 	k8s.io/client-go v0.0.0-20260829005942-d4060b1a90a3
-	k8s.io/component-base v0.0.0-20260829011232-e442c4088bc3
+	k8s.io/component-base v0.0.0-20260831220340-1336601c6776
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/utils v0.0.0-20260626114624-be93311217bd
 )
