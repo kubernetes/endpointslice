@@ -9,10 +9,10 @@ godebug default=go1.27
 require (
 	github.com/google/go-cmp v0.7.0
 	github.com/stretchr/testify v1.12.1
-	k8s.io/api v0.0.0
-	k8s.io/apimachinery v0.0.0
-	k8s.io/client-go v0.0.0
-	k8s.io/component-base v0.0.0
+	k8s.io/api v0.0.0-20261009022248-31d6f3932eb5
+	k8s.io/apimachinery v0.0.0-20261009021810-830a138b85ad
+	k8s.io/client-go v0.0.0-20261009022909-199455b69899
+	k8s.io/component-base v0.0.0-20261009024433-39b8712093c1
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/utils v0.0.0-20260626114624-be93311217bd
 )
@@ -59,13 +59,4 @@ require (
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v7 v7.0.0 // indirect
 	sigs.k8s.io/yaml v1.6.0 // indirect
-)
-
-replace (
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/client-go => ../client-go
-	k8s.io/component-base => ../component-base
-	k8s.io/ktesting => ../ktesting
-	k8s.io/streaming => ../streaming
 )
